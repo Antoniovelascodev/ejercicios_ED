@@ -1,0 +1,11 @@
+prompt  = entrada("dime un número");
+let a = Number(entrada); 
+
+if(a <= 0 ){
+    console.log("ERROR");
+} else {
+    Math.pow(a, 2);
+    console.log("El cuadrado de " + a + " es: " + Math.pow(a, 2));
+    Math.sqrt(a);
+    console.log("La raíz cuadrada de " + a + " es: " + Math.sqrt(a));
+}
