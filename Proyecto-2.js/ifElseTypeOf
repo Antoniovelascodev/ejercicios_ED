@@ -1,0 +1,36 @@
+let numero = 7; 
+
+console.log("Tipo de numero: " + typeof numero); 
+
+let resto = numero % 2; 
+
+console.log('Tipo del resto: ' + typeof resto); 
+
+if ( resto === 0) {
+    console.log("El numero es par");
+}else{
+    console.log("El numero es impar")
+}
+
+let message; 
+message = "HOLA";
+message =  message + 'mundo'; 
+
+let key = 3; 
+
+switch (key) {
+        case 1:
+        case 2: 
+        case 3: 
+        
+        console.log("Valores 1, 2 o 3")
+
+        break;
+
+    default:
+
+        console.log("No es un valor"); 
+
+        break;
+}
+
