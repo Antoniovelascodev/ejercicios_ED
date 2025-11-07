@@ -52,4 +52,5 @@ while(numpersonas>=acumulador){
 }
 }
 media = numhijos/numpersonas;
+console.log(" "); 
 console.log(` La media de hijos por persona es de es de: ${media}, el número mínimo de hijos es de: ${numminhijos}, el numero máximo de hijos es de:  ${nummaxhijos}.`);

@@ -1,11 +1,11 @@
 const prompt = require('prompt-sync')();
-altura = prompt("Dime la altura de la pirámide"); 
-
-
-
-
-funcion 
-
+console.log("------------------ ");
+altura = prompt("Dime la altura de la pirámide -->   "); 
+console.log(" "); 
+console.log(`Para una pirámide de ${altura} niveles de altura esta es la representación:  ` ); 
+console.log(" ");
+console.log("____________________________");
+console.log(" ");
 
 if (altura<=0) {
 
@@ -27,6 +27,6 @@ if (altura<=0) {
 
     console.log(linea);
     }
+    console.log(" "); 
     console.log("0 (éxito) ");   
-
 }
