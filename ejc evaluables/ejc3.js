@@ -12,19 +12,16 @@ comprobarValor(numeroUsuario, numeroCorrecto): comprueba si el número es correc
 
 */
 
-
 const prompt = require('prompt-sync')();
 
-console.log(`Intenta adivinar el numero que tengo apuntado del 1-100, te iré dando pistas`)
+let num= prompt(`Intenta adivinar el numero que tengo apuntado del 1-100, te iré dando pistas`)
 
 do {
     console.log("-------------------------")
     let num = prompt('Dime un numero: ')
     console.log("-------------------------")
     
-}while(num != 43){
-
-    console.log(`Has fallado`)
+}while(num <0){
 
     if(num<43){
         console.log(`El numero introducido es más pequeño, sigue intentando`)
@@ -36,3 +33,4 @@ do {
 if (num===43){
     console.log(`Correcto el número era el 43`)
 }
+
