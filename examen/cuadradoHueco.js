@@ -1,17 +1,9 @@
 const prompt = require('prompt-sync')();
-
-
 console.log(); 
 let base = Number(prompt('Dime base: '));
 let altura = Number(prompt('Dime altura: '));
 
 console.log("----------------"); 
-
-for ( let j = 1; j<=altura+1 ; j++){
-
-    process.stdout.write(" ".repeat(base-j)+"* ".repeat((j*j)-1)); 
-    console.log(); 
-}
 
 for (let i = 0; i<altura ; i++){
     //principio y fin 

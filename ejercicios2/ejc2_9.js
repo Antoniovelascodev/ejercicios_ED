@@ -4,10 +4,6 @@ let n = Number(prompt('dime el lado del cuadrado'));
 
 //pinto la fila 
 
-pitnloLineaCompleta(); 
-
-
-
 for ( let i = 0; i < n-2  ; i++){
     pintaNucleo(); 
 }
